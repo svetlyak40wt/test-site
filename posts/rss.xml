@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>40Ants</title><link>https://40ants.com/</link><description>40Ants</description><guid isPermaLink="false">https://40ants.com/</guid><lastBuildDate>Mon, 29 Apr 2024 13:12:26 +0000</lastBuildDate><item><title>Matrix Badger для GitHub</title><link>https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/ru/blog/matrix-badges/</link><description>&lt;p&gt;Сегодня расскажу ещё про один мой проект, который так и не превратился в продукт. Правда в отличие от 12forks.com, этот проект жив до сих пор. Проект связан с GitHub и полезен тем, кто развивает фреймворк или библиотеку, предназначенную для разных платформ, языков программирования или операционных систем.&lt;/p&gt;
+</description><guid isPermaLink="false">https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/ru/blog/matrix-badges/</guid><lastBuildDate>Mon, 29 Apr 2024 13:12:26 +0000</lastBuildDate><content:encoded>&lt;p&gt;Сегодня расскажу ещё про один мой проект, который так и не превратился в продукт. Правда в отличие от 12forks.com, этот проект жив до сих пор. Проект связан с GitHub и полезен тем, кто развивает фреймворк или библиотеку, предназначенную для разных платформ, языков программирования или операционных систем.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;На GitHub есть возможность запускать тесты вашей библиотеки в так называемой &amp;quot;матрице&amp;quot;. То есть тесты запускаются для различных комбинаций одного или нескольких параметров. В качестве параметров часто выступают разные OS и версии языка программирования. В зависимости от языка, сюда можно добавить и разные реализации, например Python библиотеку можно тестировать и под CPython и под PyPi, а уж сколько доступно реализаций Common Lisp, я вообще молчу!&lt;/p&gt;
+
+&lt;p&gt;У меня много Opensource библиотек для Common Lisp и многие из них для меня системо-образующие - хотелось бы чтобы они работали для как можно большего числа реализаций CL и под разными операционными системами. Однако как показать, для каких комбинаций OS и реализации языка тесты успешно проходят? Нормального способа я не нашёл, и поэтому решил сделать свой &amp;quot;велосипед&amp;quot;. Так получился &lt;a href=&quot;https://github-actions.40ants.com/&quot; &gt;GitHub Actions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Уже не помню почему я решил назвать проект &lt;a href=&quot;https://github-actions.40ants.com/&quot; &gt;Github Actions&lt;/a&gt;. Логичнее было бы назвать его Matrix Badger, ведь всё что он делает - генерит SVG картинку со статусом запуска тестов для всех комбинаций матрицы. Пример такой картинки - в начале этого поста. На картинке результат тестов какой-то популярной библиотечки для Scala.&lt;/p&gt;
+
+&lt;p&gt;Я так и не придумал, как монетизировать этот небольшой проект. Но он много ресурсов не требует и времени не отнимает, а польза от него есть - сам в каждом своём проекте его использую.&lt;/p&gt;
+
+&lt;p&gt;Вообще мне кажется что сложно сделать так, чтобы разработчики платили за подобные продукты. У нас же как, если кто-то за что-то хочет с нас копеечку - сразу возникает мысль: &amp;quot;Я же могу сделать сам и даже лучше!&amp;quot; :)))&lt;/p&gt;
+</content:encoded></item><item><title>Github Actions Badger</title><link>https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/blog/second/</link><description>&lt;p&gt;Сегодня расскажу ещё про один мой проект, который так и не превратился в продукт. Правда в отличие от 12forks.com, этот проект жив до сих пор. Проект связан с GitHub и полезен тем, кто развивает фреймворк или библиотеку, предназначенную для разных платформ, языков программирования или операционных систем.&lt;/p&gt;
+
+&lt;p&gt;На GitHub есть возможность запускать тесты вашей библиотеки в так называемой &amp;quot;матрице&amp;quot;. То есть тесты запускаются для различных комбинаций одного или нескольких параметров. В качестве параметров часто выступают разные OS и версии языка программирования. В зависимости от языка, сюда можно добавить и разные реализации, например Python библиотеку можно тестировать и под CPython и под PyPi, а уж сколько доступно реализаций Common Lisp, я вообще молчу!&lt;/p&gt;
+
+&lt;p&gt;У меня много Opensource библиотек для Common Lisp и многие из них для меня системо-образующие - хотелось бы чтобы они работали для как можно большего числа реализаций CL и под разными операционными системами. Однако как показать, для каких комбинаций OS и реализации языка тесты успешно проходят? Нормального способа я не нашёл, и поэтому решил сделать свой &amp;quot;велосипед&amp;quot;. Так получился GitHub Actions.&lt;/p&gt;
+
+&lt;p&gt;Уже не помню почему я решил назвать проект Github Actions. Логичнее было бы назвать его Matrix Badger, ведь всё что он делает - генерит SVG картинку со статусом запуска тестов для всех комбинаций матрицы. Пример такой картинки - в начале этого поста. На картинке результат тестов какой-то популярной библиотечки для Scala.&lt;/p&gt;
+
+&lt;p&gt;Я так и не придумал, как монетизировать этот небольшой проект. Но он много ресурсов не требует и времени не отнимает, а польза от него есть - сам в каждом своём проекте его использую.&lt;/p&gt;
+
+&lt;p&gt;Вообще мне кажется что сложно сделать так, чтобы разработчики платили за подобные продукты. У нас же как, если кто-то за что-то хочет с нас копеечку - сразу возникает мысль: &amp;quot;Я же могу сделать сам и даже лучше!&amp;quot; :)))&lt;/p&gt;
+</description><guid isPermaLink="false">https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/blog/second/</guid><lastBuildDate>Mon, 29 Apr 2024 13:12:26 +0000</lastBuildDate><content:encoded>&lt;p&gt;Сегодня расскажу ещё про один мой проект, который так и не превратился в продукт. Правда в отличие от 12forks.com, этот проект жив до сих пор. Проект связан с GitHub и полезен тем, кто развивает фреймворк или библиотеку, предназначенную для разных платформ, языков программирования или операционных систем.&lt;/p&gt;
+
+&lt;p&gt;На GitHub есть возможность запускать тесты вашей библиотеки в так называемой &amp;quot;матрице&amp;quot;. То есть тесты запускаются для различных комбинаций одного или нескольких параметров. В качестве параметров часто выступают разные OS и версии языка программирования. В зависимости от языка, сюда можно добавить и разные реализации, например Python библиотеку можно тестировать и под CPython и под PyPi, а уж сколько доступно реализаций Common Lisp, я вообще молчу!&lt;/p&gt;
+
+&lt;p&gt;У меня много Opensource библиотек для Common Lisp и многие из них для меня системо-образующие - хотелось бы чтобы они работали для как можно большего числа реализаций CL и под разными операционными системами. Однако как показать, для каких комбинаций OS и реализации языка тесты успешно проходят? Нормального способа я не нашёл, и поэтому решил сделать свой &amp;quot;велосипед&amp;quot;. Так получился GitHub Actions.&lt;/p&gt;
+
+&lt;p&gt;Уже не помню почему я решил назвать проект Github Actions. Логичнее было бы назвать его Matrix Badger, ведь всё что он делает - генерит SVG картинку со статусом запуска тестов для всех комбинаций матрицы. Пример такой картинки - в начале этого поста. На картинке результат тестов какой-то популярной библиотечки для Scala.&lt;/p&gt;
+
+&lt;p&gt;Я так и не придумал, как монетизировать этот небольшой проект. Но он много ресурсов не требует и времени не отнимает, а польза от него есть - сам в каждом своём проекте его использую.&lt;/p&gt;
+
+&lt;p&gt;Вообще мне кажется что сложно сделать так, чтобы разработчики платили за подобные продукты. У нас же как, если кто-то за что-то хочет с нас копеечку - сразу возникает мысль: &amp;quot;Я же могу сделать сам и даже лучше!&amp;quot; :)))&lt;/p&gt;
+</content:encoded></item><item><title>Помощник для Opensource разработчиков</title><link>https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/ru/blog/12forks/</link><description>&lt;p&gt;Сегодня хочу рассказать про один из своих прошлых проектов. Когда-то у меня появилась идея, как упростить себе обработку большого числа пулл-реквестов и issue в своих opensource проектах. И тогда я сделал сайт 12forks.com (сейчас уже недоступен, как выглядела главная страница можно глянуть &lt;a href=&quot;https://web.archive.org/web/20211124152220/https://12forks.com/&quot; &gt;через WebArchive&lt;/a&gt;).&lt;/p&gt;
+</description><guid isPermaLink="false">https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/ru/blog/12forks/</guid><lastBuildDate>Mon, 29 Apr 2024 13:12:26 +0000</lastBuildDate><content:encoded>&lt;p&gt;Сегодня хочу рассказать про один из своих прошлых проектов. Когда-то у меня появилась идея, как упростить себе обработку большого числа пулл-реквестов и issue в своих opensource проектах. И тогда я сделал сайт 12forks.com (сейчас уже недоступен, как выглядела главная страница можно глянуть &lt;a href=&quot;https://web.archive.org/web/20211124152220/https://12forks.com/&quot; &gt;через WebArchive&lt;/a&gt;).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Идея 12Forks состояла в том, что он собирал всю коммуникацию по всем твоим issues и pull-requests на одной странице, подсвечивая те из них, которые требуют каких-то действий с твоей стороны. То есть, если ты оставил в issue комментарий, то он исчезает с дашборда до тех пор, пока кто-либо не ответит или пока не пройдёт заданное время - и тогда 12Forks предложит тебе попинговать собеседников.&lt;/p&gt;
+
+&lt;p&gt;Такая схема позволяет не забывать про те issues и pull-requests, которые ты завёл в чужих проектах или которые кто-то завёл в твоих. Так же 12Forks был призван уменьшить количество информации, убрав то на что не стоит отвлекаться.&lt;/p&gt;
+
+&lt;p&gt;Проект я забросил, потому что не понимал как его пиарить, да и сам им толком не пользовался. Теперь то понимаю, что надо был встраивать туда какие-то напоминания через почту или мессенджер, чтобы улучшить возвращаемость и сделать периодический просмотр дашборда привычкой.&lt;/p&gt;
+
+&lt;p&gt;Недавно у меня появился коллега, который когда-то поработал в Google. Он рассказывал что там во внутренней системе code review есть такое понятие, как attention set, принцип работы которой похож на то что я делал в 12Forks.com.&lt;/p&gt;
+
+&lt;p&gt;Как думаете, стоит ли возродить этот проект?&lt;/p&gt;
+</content:encoded></item><item><title>Результаты хакатона ЛЦТ 2023</title><link>https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/ru/blog/hrzero/</link><description>&lt;p&gt;В &lt;a href=&quot;https://www.youtube.com/watch?v=Zpn86AQRVN8&quot; &gt;последнем видео&lt;/a&gt; на YouTube канале я рассказываю о проекте HrZero, который мы с одним товарищем делали на хакатоне Лидеры Цифровой Трансформации осенью 2023. Задача была создать сервис онбординга сотрудников, но мы, как всегда постарались сделать больше, чем от нас требовалось. В результате, в нашем сервисе онбординга появилась мини-игра, позволяющая новому сотруднику запомнить своих коллег. Эта идея нам так понравилась, что решили сделать из неё отдельный проект. Так появился https://mememo.ru.&lt;/p&gt;
+</description><guid isPermaLink="false">https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/ru/blog/hrzero/</guid><lastBuildDate>Mon, 29 Apr 2024 13:12:26 +0000</lastBuildDate><content:encoded>&lt;p&gt;В &lt;a href=&quot;https://www.youtube.com/watch?v=Zpn86AQRVN8&quot; &gt;последнем видео&lt;/a&gt; на YouTube канале я рассказываю о проекте HrZero, который мы с одним товарищем делали на хакатоне Лидеры Цифровой Трансформации осенью 2023. Задача была создать сервис онбординга сотрудников, но мы, как всегда постарались сделать больше, чем от нас требовалось. В результате, в нашем сервисе онбординга появилась мини-игра, позволяющая новому сотруднику запомнить своих коллег. Эта идея нам так понравилась, что решили сделать из неё отдельный проект. Так появился https://mememo.ru.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Сейчас с помощью https://Mememo.ru можно запомнить всех учителей своей школы (пока только Московской). Но вскоре там появятся и другие категории карточек. Как раз на этих выходных я дорабатываю сервис так, чтобы можно было создавать карточки о чём угодно и каждый мог сделать свой собственный набор и поделиться им со своими друзьями.&lt;/p&gt;
+
+&lt;p&gt;Кстати, скорее всего благодаря этому проекту вскоре для Common Lisp появится библиотека для парсинга данных в интернет, по типу питоновского Scrapy. У меня уже есть несколько идей относительно того, как организовать обход сайта, органичение числа запросов в секунду и прочего.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть опыт обучения с помощью карточек, буду рад обсудить его в комментариях!&lt;/p&gt;
+</content:encoded></item><item><title>Из Telegram в статический блог</title><link>https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/ru/blog/telegram-reposter/</link><description>&lt;p&gt;Привет, друзья! Сегодня я хочу поделиться с вами интересной идеей, которая пришла мне в голову недавно. Я сейчас вникаю в то, как продвигать свои проекты, а через них и Common Lisp. Ну, знаете, SEO там всякий, маркетинг. И вот что я придумал!&lt;/p&gt;
+</description><guid isPermaLink="false">https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/ru/blog/telegram-reposter/</guid><lastBuildDate>Mon, 29 Apr 2024 13:12:26 +0000</lastBuildDate><content:encoded>&lt;p&gt;Привет, друзья! Сегодня я хочу поделиться с вами интересной идеей, которая пришла мне в голову недавно. Я сейчас вникаю в то, как продвигать свои проекты, а через них и Common Lisp. Ну, знаете, SEO там всякий, маркетинг. И вот что я придумал!&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Я задумал репостить посты из нашего Telegram канала прямо в статический блог на сайте https://40ants.com. Зачем? Дело в том, что поисковые системы, такие как Google, обожают свежий и уникальный контент. А в Telegram канал будут постоянно появляться интересные и полезные заметки. Это поможет сделать сайт более популярным, а вместе с ним и мои OpenSource проекты, чья документация тоже доступна на сайте.&lt;/p&gt;
+
+&lt;p&gt;Однако, чтобы сделать это процесс автоматическим и эффективным, я решил создать специального Telegram бота. Этот бот будет автоматически репостить новые посты из нашего канала прямо на наш блог. Таким образом, мы сможем не только расширить аудиторию нашего блога, но и повысить его SEO показатели.&lt;/p&gt;
+
+&lt;p&gt;Для себя то я точно такого бота сделаю, подумал я. И вот тут родилась идея сделать из этого бота микро-продукт. Научить ботика репостить в популярные платформы, может научить подтягивать комментарии к постам.&lt;/p&gt;
+
+&lt;p&gt;Эта идея может быть особенно полезной для тех, кто уже имеет активный и популярный Telegram канал. Репостинг контента из канала на блог позволит удержать посетителей на сайте дольше, а также привлечь новых читателей, которые могут не быть подписчиками канала.&lt;/p&gt;
+
+&lt;p&gt;Что вы думаете об этой идее? Буду рад услышать ваши мысли и предложения!&lt;/p&gt;
+</content:encoded></item><item><title>Сайт со сказками</title><link>https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/ru/blog/skazorama/</link><description>&lt;p&gt;Продолжая тему моих неудачных проектов, хочу рассказать ещё об одном сайте – Skazorama.ru.&lt;/p&gt;
+
+&lt;p&gt;Идея этого проекта была в том, чтобы сделать бесконечную ленту сказок, которые можно почитать детям. При чём, открывая сайт на телефоне, родитель видел новые сказки, которые ещё не читал своему ребёнку. Если сказка не понравилась, то её можно было просто промотать, и вслед за ней подгружалась следующая. При этом сервис воспринимал такую промотку как &amp;quot;dislike&amp;quot; и в будущем я рассчитывал прикрутить ML, чтобы рекомендовать именно те сказки, которые с большей вероятностью понравятся ребёнку.&lt;/p&gt;
+</description><guid isPermaLink="false">https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/ru/blog/skazorama/</guid><lastBuildDate>Mon, 29 Apr 2024 13:12:26 +0000</lastBuildDate><content:encoded>&lt;p&gt;Продолжая тему моих неудачных проектов, хочу рассказать ещё об одном сайте – Skazorama.ru.&lt;/p&gt;
+
+&lt;p&gt;Идея этого проекта была в том, чтобы сделать бесконечную ленту сказок, которые можно почитать детям. При чём, открывая сайт на телефоне, родитель видел новые сказки, которые ещё не читал своему ребёнку. Если сказка не понравилась, то её можно было просто промотать, и вслед за ней подгружалась следующая. При этом сервис воспринимал такую промотку как &amp;quot;dislike&amp;quot; и в будущем я рассчитывал прикрутить ML, чтобы рекомендовать именно те сказки, которые с большей вероятностью понравятся ребёнку.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Этот проект я сделал и запустил в 2017 или 2018 году, когда мои дети ещё были в том возрасте, когда каждый вечер они хотят чтобы папа почитал им сказку. На тот момент я особо не думал о маркетинге или монетизации - просто сделал проект для себя. Возможно при определённых усилиях его можно было бы раскрутить, но проект так и не выстрели, а со временем даже мне перестал быть полезен. Так что сейчас этот сайт закрыт. Посмотреть на него можно лишь через web archive:&lt;/p&gt;
+
+&lt;p&gt;https://web.archive.org/web/20190625225248/http://skazorama.ru/&lt;/p&gt;
+
+&lt;p&gt;Но в вебархиве, разумеется, не работает подкгрузка новых сказок - ведь там нет бэкенда.&lt;/p&gt;
+
+&lt;p&gt;Этот проект был целиком написан на Common Lisp и даже поиск реализован с помощью движка Montezuma, чем-то похожего на Lucene (штука делающая всю грязную работу внутри Elastic Search). А ещё, у проекта был Telegram бот, через который тоже можно было искать сказки. Бот был написан с помощью библиотечки cl-telegram-bot, которую я развиваю и по сей день.&lt;/p&gt;
+
+&lt;p&gt;Как видите, Сказорама ещё раз доказывает, что проекты которые делаются лишь для удовлетворения потребностей одного только создателя обречены. Надо сразу думать о монитизации. Кастати, на эту тему мне сегодня попалась статейка на VC, которая так и называется &amp;quot;Делаете стартап? — Сначала продай, а потом делайте! Можно иначе? Да, но продай сначала&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;А что вы думаете о подходе, когда с самого начала всё закручивается вокруг денег, а технологии вторичны?&lt;/p&gt;
+</content:encoded></item><item><title>AllMyChanges.com</title><link>https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/ru/blog/allmychanges/</link><description>&lt;p&gt;Мне всю жизнь нравится что-то придумывать и конструировать. Просто не могу сидеть без дела. Поэтому я постоянно пишу какие-то небольшие проектики помимо основной работы. Но долгое время я не понимал, что чтобы проект &amp;quot;полетел&amp;quot;, нужно вкладывать хотя бы половину времени в его продвижение - каст-дев, маркетинг, SEO. Сегодня, и в нескольких следующих постах хочу рассказать вам про мои неудачные проекты.&lt;/p&gt;
+</description><guid isPermaLink="false">https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/ru/blog/allmychanges/</guid><lastBuildDate>Mon, 29 Apr 2024 13:12:26 +0000</lastBuildDate><content:encoded>&lt;p&gt;Мне всю жизнь нравится что-то придумывать и конструировать. Просто не могу сидеть без дела. Поэтому я постоянно пишу какие-то небольшие проектики помимо основной работы. Но долгое время я не понимал, что чтобы проект &amp;quot;полетел&amp;quot;, нужно вкладывать хотя бы половину времени в его продвижение - каст-дев, маркетинг, SEO. Сегодня, и в нескольких следующих постах хочу рассказать вам про мои неудачные проекты.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Давным давно, в 2013 году я и пара коллег участвовали в хакатоне и запили небольшой сайт, который умел парсить текстовый ChangeLog и делать из него RSS. Идея мне так понравилась, что я стал её развивать и создал сайт allmychanges.com, где каждый мог подписаться на релизы различных opensource библиотек и программ. Со временем сайт стал поддерживать много разных способ парсинга и даже мог вытягивать описания обновлений из Google Play. Удобно было получать еженедельный дайджест обновлений всех важных зависимостей.&lt;/p&gt;
+
+&lt;p&gt;Однако иногда в проектах менялась разметка релизов и парсер приходилось донастраивать. Это отнимало много времени и в конце концов мне надоело развивать проект. Одной из проблем так же стало то, что он был написан на Python, тогда как мне хотелось во всех хобби проектах использовать Common Lisp.&lt;/p&gt;
+
+&lt;p&gt;Кроме всего прочего, AllMyChanges был абсолютно некоммерческим. Если бы он приносил хоть какой-то доход, я бы возможно продолжал его развивать.&lt;/p&gt;
+
+&lt;p&gt;В итоге проект закрылся и посмотреть как он выглядел можно лишь &lt;a href=&quot;https://web.archive.org/web/20190405174823/https://allmychanges.com/&quot; &gt;через Web Archive&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Напишите в комментариях, что думаете об этой идее? Может стоит её возродить?&lt;/p&gt;
+</content:encoded></item><item><title>Pushing your pulls faster!</title><link>https://40ants.com/posts/push-your-pulls/</link><description>&lt;p&gt;Today I’m going to share an idea I’ve been nurturing for a long time, my friends. It came into my mind many years ago. It’s core message has to do with development of a service, which would aggregate and conveniently display all communications related to your favorite GitHub projects. This service will be very helpful for users having many own GitHub projects. It’ll also help GitHub users with numerous pulls and tickets for third party projects.&lt;/p&gt;
+
+&lt;p&gt;I believe that tickets and pulls creators create them to improve their open source projects of interest. In order to do that, tickets must become pulls. The pulls in turn should merge in a timely manner. The faster this process will be, the quicker open source projects will be developed.&lt;/p&gt;
+
+&lt;p&gt;Yet, communication around a ticket or a pull often gets less intense and can be lost on GitHub. This situation can arise for a number of reasons. As a rule, some participant misses a GitHub email notification about a comment, and the issue emerges. The end result stays the same despite various reasons — a ticket is lost. At times, it may take years for the ticket to be discovered.&lt;/p&gt;
+
+&lt;p&gt;For that matter, there are special pages on GitHub, of course. E. g. see web pages with pull lists on https://github.com/pulls and web pages with ticket lists on https://github.com/issues. Yet, these lists are not user-friendly, as they don’t give you a slightest idea about which ticket requires your reaction and which does not. That’s what I’m going to fix.&lt;/p&gt;
+
+&lt;p&gt;My project is called &lt;a href=&quot;http://12forks.com&quot; &gt;12Forks&lt;/a&gt;. It will provide an experimental interface for ticket and pull processing. All the tickets to be responded to, pulls that require merge conflict fix, and situations calling for a maintainer who is unwilling to react promptly for some reason will be summarized on a single page. Future integration with a variety of messengers (e. g. Slack or Telegram) is also considered. The point is to boost communication and task completion with
+open source projects.&lt;/p&gt;
+
+&lt;p&gt;I already use MVP (minimal viable product) of this tool, which operates in console mode for the time being.
+It helped to halve overflow consisting of 103 pulls and tickets. I closed some of them because of their age. In other cases, a library maintainer has responded to feedback and merged pulls:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/2P9sYng/12forks-illustration.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m sure that such tool will quicken change acceptance process. Any open source projects participant is likely to find it helpful.&lt;/p&gt;
+
+&lt;p&gt;My estimates show that about 3% of all GitHub users actively work with tickets and pulls. But you know what? 3% of 48,000,000 users (the figure was taken from my research) totals to ~1,500,000 users. So, this large community may benefit from my solution.&lt;/p&gt;
+
+&lt;p&gt;Ready publicly available MVP is planned for June.
+If you want to be one of its early adopters, please, provide your email address. To do this, fill in a form on http://12forks.com site.&lt;/p&gt;
+
+&lt;p&gt;Any concepts to be realized in this product? Speak up. You're more than welcome. Put them down in your comments to the post. Or send them to ideas@12forks.com.&lt;/p&gt;
+</description><guid isPermaLink="false">https://40ants.com/posts/push-your-pulls/</guid><lastBuildDate>Mon, 29 Apr 2024 13:12:26 +0000</lastBuildDate><content:encoded>&lt;p&gt;Today I’m going to share an idea I’ve been nurturing for a long time, my friends. It came into my mind many years ago. It’s core message has to do with development of a service, which would aggregate and conveniently display all communications related to your favorite GitHub projects. This service will be very helpful for users having many own GitHub projects. It’ll also help GitHub users with numerous pulls and tickets for third party projects.&lt;/p&gt;
+
+&lt;p&gt;I believe that tickets and pulls creators create them to improve their open source projects of interest. In order to do that, tickets must become pulls. The pulls in turn should merge in a timely manner. The faster this process will be, the quicker open source projects will be developed.&lt;/p&gt;
+
+&lt;p&gt;Yet, communication around a ticket or a pull often gets less intense and can be lost on GitHub. This situation can arise for a number of reasons. As a rule, some participant misses a GitHub email notification about a comment, and the issue emerges. The end result stays the same despite various reasons — a ticket is lost. At times, it may take years for the ticket to be discovered.&lt;/p&gt;
+
+&lt;p&gt;For that matter, there are special pages on GitHub, of course. E. g. see web pages with pull lists on https://github.com/pulls and web pages with ticket lists on https://github.com/issues. Yet, these lists are not user-friendly, as they don’t give you a slightest idea about which ticket requires your reaction and which does not. That’s what I’m going to fix.&lt;/p&gt;
+
+&lt;p&gt;My project is called &lt;a href=&quot;http://12forks.com&quot; &gt;12Forks&lt;/a&gt;. It will provide an experimental interface for ticket and pull processing. All the tickets to be responded to, pulls that require merge conflict fix, and situations calling for a maintainer who is unwilling to react promptly for some reason will be summarized on a single page. Future integration with a variety of messengers (e. g. Slack or Telegram) is also considered. The point is to boost communication and task completion with
+open source projects.&lt;/p&gt;
+
+&lt;p&gt;I already use MVP (minimal viable product) of this tool, which operates in console mode for the time being.
+It helped to halve overflow consisting of 103 pulls and tickets. I closed some of them because of their age. In other cases, a library maintainer has responded to feedback and merged pulls:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/2P9sYng/12forks-illustration.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m sure that such tool will quicken change acceptance process. Any open source projects participant is likely to find it helpful.&lt;/p&gt;
+
+&lt;p&gt;My estimates show that about 3% of all GitHub users actively work with tickets and pulls. But you know what? 3% of 48,000,000 users (the figure was taken from my research) totals to ~1,500,000 users. So, this large community may benefit from my solution.&lt;/p&gt;
+
+&lt;p&gt;Ready publicly available MVP is planned for June.
+If you want to be one of its early adopters, please, provide your email address. To do this, fill in a form on http://12forks.com site.&lt;/p&gt;
+
+&lt;p&gt;Any concepts to be realized in this product? Speak up. You're more than welcome. Put them down in your comments to the post. Or send them to ideas@12forks.com.&lt;/p&gt;
+</content:encoded></item><item><title>Second version of Ultralisp.org is available now!</title><link>https://40ants.com/posts/ultralisp/</link><description>&lt;p&gt;I believe, that software should evolve and evolve quickly.
+One of the reasons why Common Lisp seems strange to newcomers is its
+ecosystem. It takes a long time to add a new library and make it useful
+to other common lispers.&lt;/p&gt;
+
+&lt;p&gt;Just pretend that you've made a brand new library and want to show it to
+the world. Now you have two options.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Include it into the Quicklisp and probably wait for 1 month before
+   announcing the library on the Reddit or StackOverflow.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Put the library on the Github and ask everybody to download it and
+   put somewhere where ASDF will be able to find it. Not very
+   user-friendly, especially if your library has dependencies which
+   aren't on the Quicklisp yet.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now ask yourself a question, what if you've chosen the first option, and
+some user found a critical bug in your library?&lt;/p&gt;
+
+&lt;p&gt;The answer is: &amp;quot;Your users will have to wait another month until the next release of the Quicklisp.&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;Quicklisp is a perfect distribution for very stable software, but if we want
+our ecosystem to grow, we need something that can move faster. That is
+why I decided to spend all my free time working on the https://ultralisp.org.&lt;/p&gt;
+
+&lt;p&gt;Ultralisp is a Quicklisp compatible distribution, but it has two core features:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It let you (and anybody else) to add their libraries from the GitHub in few clicks.&lt;/li&gt;
+&lt;li&gt;It builds the next version within 5 minutes after a library was added or updated.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There are other features as well. Some of them are already implemented,
+others only planned and exist as the [GitHub issues](https://github.com/ultralisp/ultralisp/issues&amp;gt;).
+You can help this project by using it, complaining about it and developing it.&lt;/p&gt;
+
+&lt;p&gt;Ultralisp was made not only to be used as a yet another quicklisp
+distribution. You can run your own instance of the Ultralisp. It is as
+easy as doing &lt;code&gt;docker-compose run app&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you are a company who uses Common Lisp, then you can set up a
+private Ultralisp server inside your infrastructure. However, don't forget to
+become a sponsor of the project ;-)&lt;/p&gt;
+
+&lt;h1&gt;How to use Ultralisp.org&lt;/h1&gt;
+
+&lt;p&gt;Using libraries from Ultralisp is as easy as adding it to the list of
+quicklisp distributions. You can do it in the REPL with this command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(ql-dist:install-dist &quot;http://dist.ultralisp.org/&quot;
+                      :prompt nil)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, I recommend you to pin distribution or libraries versions in
+every project. The easiest way to do this is to use Qlot. With Qlot
+you'll be able to pin version numbers and commit a config into the
+repository. This will give you stable builds which don't depend on
+future releases of Quicklisp or Ultralisp.&lt;/p&gt;
+
+&lt;p&gt;Here is the simplest config for the &lt;a href=&quot;https://github.com/fukamachi/qlot&quot; &gt;Qlot&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;dist ultralisp http://dist.ultralisp.org/
+ql :all :latest
+ultralisp :all :latest&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It says, that if some system is present in the Ultralisp, it will will
+have priority over the same system from the Quicklisp.&lt;/p&gt;
+
+&lt;p&gt;After running &lt;code&gt;qlot install&lt;/code&gt; or &lt;code&gt;qlot update&lt;/code&gt;, Qlot will create a
+&lt;code&gt;qlfile.lock&lt;/code&gt; file with pinned versions of the Quicklisp and
+Ultralisp. It will look like that:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(&quot;quicklisp&quot; .
+ (:class qlot.source.ql:source-ql-all
+  :initargs (:distribution &quot;http://beta.quicklisp.org/dist/quicklisp.txt&quot; :%version :latest)
+  :version &quot;2019-02-02&quot;))
+(&quot;ultralisp&quot; .
+ (:class qlot.source.ql:source-ql-all
+  :initargs (:distribution &quot;http://dist.ultralisp.org/&quot; :%version :latest)
+  :version &quot;20190202213040&quot;))&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Commit both &lt;code&gt;qlfile&lt;/code&gt; and &lt;code&gt;qlfile.lock&lt;/code&gt; into you source control
+system.&lt;/p&gt;
+
+&lt;p&gt;From time to time you'll need to run &lt;code&gt;qlot update&lt;/code&gt; to update versions
+in the &lt;code&gt;qlfile.lock&lt;/code&gt;, and run all your project's tests to ensure that
+it still works with newer distributions. If you discover that something
+went wrong, you can pin an older version of Ultralisp in the
+&lt;code&gt;qlfile&lt;/code&gt;, just replace the line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ultralisp :all :latest&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With the line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ultralisp :all 20190130205039&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or you can pin a single library by adding a line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ultralisp cl-pgpass 20190202203038&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;if it stopped to work for you after some changes in recent versions.&lt;/p&gt;
+
+&lt;h1&gt;Final words&lt;/h1&gt;
+
+&lt;p&gt;We are all responsible for improving tooling around Common Lisp. If
+you feel that something can be made better, just do it. I hope
+that together we will make Common Lisp more convenient and attractive
+for the newcomers.&lt;/p&gt;
+</description><guid isPermaLink="false">https://40ants.com/posts/ultralisp/</guid><lastBuildDate>Mon, 29 Apr 2024 13:12:26 +0000</lastBuildDate><content:encoded>&lt;p&gt;I believe, that software should evolve and evolve quickly.
+One of the reasons why Common Lisp seems strange to newcomers is its
+ecosystem. It takes a long time to add a new library and make it useful
+to other common lispers.&lt;/p&gt;
+
+&lt;p&gt;Just pretend that you've made a brand new library and want to show it to
+the world. Now you have two options.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Include it into the Quicklisp and probably wait for 1 month before
+   announcing the library on the Reddit or StackOverflow.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Put the library on the Github and ask everybody to download it and
+   put somewhere where ASDF will be able to find it. Not very
+   user-friendly, especially if your library has dependencies which
+   aren't on the Quicklisp yet.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now ask yourself a question, what if you've chosen the first option, and
+some user found a critical bug in your library?&lt;/p&gt;
+
+&lt;p&gt;The answer is: &amp;quot;Your users will have to wait another month until the next release of the Quicklisp.&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;Quicklisp is a perfect distribution for very stable software, but if we want
+our ecosystem to grow, we need something that can move faster. That is
+why I decided to spend all my free time working on the https://ultralisp.org.&lt;/p&gt;
+
+&lt;p&gt;Ultralisp is a Quicklisp compatible distribution, but it has two core features:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It let you (and anybody else) to add their libraries from the GitHub in few clicks.&lt;/li&gt;
+&lt;li&gt;It builds the next version within 5 minutes after a library was added or updated.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There are other features as well. Some of them are already implemented,
+others only planned and exist as the [GitHub issues](https://github.com/ultralisp/ultralisp/issues&amp;gt;).
+You can help this project by using it, complaining about it and developing it.&lt;/p&gt;
+
+&lt;p&gt;Ultralisp was made not only to be used as a yet another quicklisp
+distribution. You can run your own instance of the Ultralisp. It is as
+easy as doing &lt;code&gt;docker-compose run app&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you are a company who uses Common Lisp, then you can set up a
+private Ultralisp server inside your infrastructure. However, don't forget to
+become a sponsor of the project ;-)&lt;/p&gt;
+
+&lt;h1&gt;How to use Ultralisp.org&lt;/h1&gt;
+
+&lt;p&gt;Using libraries from Ultralisp is as easy as adding it to the list of
+quicklisp distributions. You can do it in the REPL with this command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(ql-dist:install-dist &quot;http://dist.ultralisp.org/&quot;
+                      :prompt nil)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, I recommend you to pin distribution or libraries versions in
+every project. The easiest way to do this is to use Qlot. With Qlot
+you'll be able to pin version numbers and commit a config into the
+repository. This will give you stable builds which don't depend on
+future releases of Quicklisp or Ultralisp.&lt;/p&gt;
+
+&lt;p&gt;Here is the simplest config for the &lt;a href=&quot;https://github.com/fukamachi/qlot&quot; &gt;Qlot&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;dist ultralisp http://dist.ultralisp.org/
+ql :all :latest
+ultralisp :all :latest&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It says, that if some system is present in the Ultralisp, it will will
+have priority over the same system from the Quicklisp.&lt;/p&gt;
+
+&lt;p&gt;After running &lt;code&gt;qlot install&lt;/code&gt; or &lt;code&gt;qlot update&lt;/code&gt;, Qlot will create a
+&lt;code&gt;qlfile.lock&lt;/code&gt; file with pinned versions of the Quicklisp and
+Ultralisp. It will look like that:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(&quot;quicklisp&quot; .
+ (:class qlot.source.ql:source-ql-all
+  :initargs (:distribution &quot;http://beta.quicklisp.org/dist/quicklisp.txt&quot; :%version :latest)
+  :version &quot;2019-02-02&quot;))
+(&quot;ultralisp&quot; .
+ (:class qlot.source.ql:source-ql-all
+  :initargs (:distribution &quot;http://dist.ultralisp.org/&quot; :%version :latest)
+  :version &quot;20190202213040&quot;))&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Commit both &lt;code&gt;qlfile&lt;/code&gt; and &lt;code&gt;qlfile.lock&lt;/code&gt; into you source control
+system.&lt;/p&gt;
+
+&lt;p&gt;From time to time you'll need to run &lt;code&gt;qlot update&lt;/code&gt; to update versions
+in the &lt;code&gt;qlfile.lock&lt;/code&gt;, and run all your project's tests to ensure that
+it still works with newer distributions. If you discover that something
+went wrong, you can pin an older version of Ultralisp in the
+&lt;code&gt;qlfile&lt;/code&gt;, just replace the line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ultralisp :all :latest&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With the line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ultralisp :all 20190130205039&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or you can pin a single library by adding a line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ultralisp cl-pgpass 20190202203038&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;if it stopped to work for you after some changes in recent versions.&lt;/p&gt;
+
+&lt;h1&gt;Final words&lt;/h1&gt;
+
+&lt;p&gt;We are all responsible for improving tooling around Common Lisp. If
+you feel that something can be made better, just do it. I hope
+that together we will make Common Lisp more convenient and attractive
+for the newcomers.&lt;/p&gt;
+</content:encoded></item><item><title>First version of Ultralisp.org is available now!</title><link>https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/blog/first/</link><description>&lt;p&gt;I believe, that software should evolve and evolve quickly.
+One of the reasons why Common Lisp seems strange to newcomers is its
+ecosystem. It takes a long time to add a new library and make it useful
+to other common lispers.&lt;/p&gt;
+
+&lt;p&gt;This post contains some &lt;em&gt;Markdown&lt;/em&gt; markup.&lt;/p&gt;
+</description><guid isPermaLink="false">https://40ants.com/.qlot/dists/staticl/software/staticl-7574ac97bba94808452c7d6f333b65b1af5e2a5c/example/blog/first/</guid><lastBuildDate>Mon, 29 Apr 2024 13:12:26 +0000</lastBuildDate><content:encoded>&lt;p&gt;I believe, that software should evolve and evolve quickly.
+One of the reasons why Common Lisp seems strange to newcomers is its
+ecosystem. It takes a long time to add a new library and make it useful
+to other common lispers.&lt;/p&gt;
+
+&lt;p&gt;This post contains some &lt;em&gt;Markdown&lt;/em&gt; markup.&lt;/p&gt;
+</content:encoded></item></channel></rss>
